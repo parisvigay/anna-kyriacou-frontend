@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100..900&family=Crafty+Girls&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.navContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+    width: 100vw;
+    height: 12vh;
+    position: sticky;
+    background-color: #FAF9F6;
+    top: 0;
+    z-index: 1001;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+}
+
+.navRight {
+    gap: 4vw;
+}
+
+.link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #737373;
+    font-size: 1.25vw;
+    font-family: Archivo;
+    transition: color 0.3s ease;
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    display: block;
+    transition: width 0.3s ease;
+    bottom: -2.5px;
+    left: 0;
+    background-color: #737373;
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+.logoLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #737373;
+    font-size: 2.5vw;
+    /* font-family: Crafty Girls; */
+    font-family: Quicksand;
+    letter-spacing: .75vw;
+}

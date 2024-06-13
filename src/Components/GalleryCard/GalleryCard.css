@@ -1,0 +1,28 @@
+.galleryCard {
+    height: 60vh;
+    width: 30vw;
+    background-color: gainsboro;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Add a pseudo-element for the overlay effect */
+.galleryCard::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.galleryCard:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.galleryCard:hover::before {
+    background-color: rgba(0, 0, 0, 0.3);
+}

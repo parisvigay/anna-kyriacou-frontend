@@ -11,8 +11,8 @@ export default function NavBar() {
             <Link className="logoLink" to="/">Anna Kyriacou</Link>
         </nav>
         <nav className="navBar navRight">
-            <Link className={"link" + (pathname ==="/gallery" ? "activeLink" : "")} to="/">Gallery</Link>
-            <Link className={"link" + (pathname ==="/biography" ? "activeLink" : "")} to="/">Biography</Link>
+            <Link className={`link ${pathname === "/gallery" ? "activeLink" : ""}`} to="/gallery">Gallery</Link>
+            <Link className={`link ${pathname === "/biography" ? "activeLink" : ""}`} to="/">Biography</Link>
             <Link className={`link ${pathname === "/contact" ? "activeLink" : ""}`} to="/contact">Contact</Link>
         </nav>
     </div>

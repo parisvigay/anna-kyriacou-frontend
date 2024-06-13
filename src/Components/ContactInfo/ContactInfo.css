@@ -1,0 +1,45 @@
+.contactInfoContainer {
+    background-color: #f3f0e9;
+    height: 66.6vh;
+    width: 25vw;
+    position: absolute;
+    left: 0;
+    margin-bottom: 15vh;
+    margin-left: 2vw;
+}
+
+#emailIcon {
+    color: #737373;
+}
+
+.contactGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+}
+
+.emailGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    padding: 2vh 0 2vh 0;
+    width: 100%;
+}
+
+.emailP {
+    margin: 0;
+    font-size: 1.5vw;
+}
+
+#copyIcon {
+    color: #737373;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+#copyIcon:hover {
+    color: #C8C8C8;
+}

@@ -4,6 +4,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import React from 'react'
 import Landing from './Pages/Landing/Landing';
 import NavBar from './Components/NavBar/NavBar';
+import Contact from './Pages/Contact/Contact';
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Landing />}/>
+        <Route path="/contact" element={<Contact />}/>
       </Routes>
     </div>
   )

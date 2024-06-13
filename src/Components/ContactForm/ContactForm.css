@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+Form {
+    margin-bottom: 15vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+    background-color: #f3f0e9;
+    padding: 5px;
+    align-self: center;
+}
+
+.input {
+    width: 25vw;
+    height: 5vh;
+}
+
+.textArea {
+    height: 20vh;
+    resize: none;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactSubmitBtn {
+    width: 25%;
+    align-self: center;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    border: solid .2vw #737373;
+    background-color: #FAF9F6;
+    color: #737373;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.contactSubmitBtn:hover {
+    color:  #C8C8C8;
+}

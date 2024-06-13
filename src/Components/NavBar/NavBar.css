@@ -8,7 +8,7 @@
     align-items: center;
     gap: 8vw;
     width: 100vw;
-    height: 12vh;
+    height: 15vh;
     position: sticky;
     background-color: #FAF9F6;
     top: 0;
@@ -42,13 +42,14 @@
     width: 0;
     height: 1.5px;
     display: block;
-    transition: width 0.3s ease;
+    transition: width 0.4s ease;
     bottom: -2.5px;
     left: 0;
     background-color: #737373;
 }
 
-.link:hover::after {
+.link:hover::after,
+.link.activeLink::after {
     width: 100%;
 }
 
@@ -59,7 +60,6 @@
     text-decoration: none;
     color: #737373;
     font-size: 2.5vw;
-    /* font-family: Crafty Girls; */
     font-family: Quicksand;
     letter-spacing: .75vw;
 }

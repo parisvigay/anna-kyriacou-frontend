@@ -6,6 +6,8 @@
     left: 0;
     margin-bottom: 15vh;
     margin-left: 2vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: .5vw;
 }
 
 #emailIcon {
@@ -14,24 +16,24 @@
 
 .contactGroup {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: .75vw;
     height: 25%;
 }
 
-.emailGroup {
+/* .emailGroup {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1vw;
     padding: 2vh 0 2vh 0;
     width: 100%;
-}
+} */
 
 .emailP {
     margin: 0;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
 }
 
 #copyIcon {

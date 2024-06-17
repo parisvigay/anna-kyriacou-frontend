@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 .galleryCard {
     height: 60vh;
-    width: 30vw;
+    width: 28vw;
     background-color: gainsboro;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
     position: relative;
     cursor: pointer;
+}
+
+.galleryCardBig {
+    height: 75vh;
+    width: 35vw;
+    background-color: gainsboro;
+    position: relative;
 }
 
 /* Add a pseudo-element for the overlay effect */
@@ -25,4 +35,15 @@
 
 .galleryCard:hover::before {
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+.artworkTitle {
+    position: absolute;
+    bottom: -6vh;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Montserrat;
+    color: #737373;
+    text-align: center;
 }

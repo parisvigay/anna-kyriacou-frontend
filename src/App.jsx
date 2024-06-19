@@ -7,7 +7,8 @@ import NavBar from './Components/NavBar/NavBar';
 import Contact from './Pages/Contact/Contact';
 import Gallery from './Pages/Gallery/Gallery';
 import Footer from './Components/Footer/Footer';
-import Artwork from './Pages/Artwork/Artwork';
+import GalleryDetail from './Pages/GalleryDetail/GalleryDetail';
+import Biography from './Pages/Biography/Biography';
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
         <Route exact path="/" element={<Landing />}/>
         <Route path="/contact" element={<Contact />}/>
         <Route path="/gallery" element={<Gallery />}/>
-        <Route path="/artwork/:id" element={<Artwork />}/>
+        <Route path="/gallery/:id" element={<GalleryDetail />}/>
+        <Route path="/biography" element={<Biography />}/>
       </Routes>
       <Footer />
     </div>

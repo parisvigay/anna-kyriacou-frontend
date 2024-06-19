@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 
 .galleryCard {
-    height: 60vh;
-    width: 28vw;
+    height: 48vh;
+    width: 32vw;
     background-color: gainsboro;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
     position: relative;
@@ -11,10 +11,13 @@
 }
 
 .galleryCardBig {
-    height: 75vh;
-    width: 35vw;
+    /* height: 75vh; */
+    height: 60vh;
+    width: 40vw;
     background-color: gainsboro;
     position: relative;
+    transition: background-size 0.2s ease;
+    cursor: pointer;
 }
 
 /* Add a pseudo-element for the overlay effect */
@@ -46,4 +49,12 @@
     font-family: Montserrat;
     color: #737373;
     text-align: center;
+}
+
+.artworkYear {
+    font-size: 1vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -3vh;
 }

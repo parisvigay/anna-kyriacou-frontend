@@ -1,5 +1,5 @@
 .contactInfoContainer {
-    background-color: #f3f0e9;
+    background-color: #f5f3ec;
     height: 66.6vh;
     width: 25vw;
     position: absolute;
@@ -7,7 +7,7 @@
     margin-bottom: 15vh;
     margin-left: 2vw;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: .5vw;
+    /* border-radius: .5vw; */
 }
 
 #emailIcon {
@@ -33,7 +33,7 @@
 
 .emailP {
     margin: 0;
-    font-size: 1.25vw;
+    font-size: 1rem;
 }
 
 #copyIcon {

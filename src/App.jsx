@@ -9,6 +9,7 @@ import Gallery from './Pages/Gallery/Gallery';
 import Footer from './Components/Footer/Footer';
 import GalleryDetail from './Pages/GalleryDetail/GalleryDetail';
 import Biography from './Pages/Biography/Biography';
+import Login from './Components/Login/Login';
 
 export default function App() {
   return (

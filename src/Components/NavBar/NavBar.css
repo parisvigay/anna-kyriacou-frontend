@@ -6,11 +6,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8vw;
-    width: 100vw;
-    height: 18vh;
+    gap: 5rem;
+    width: 100%;
+    padding: 2rem 0;
     position: sticky;
     background-color: #FAF9F6;
+    /* background-color: goldenrod; */
     top: 0;
     z-index: 1001;
 }
@@ -21,7 +22,7 @@
 }
 
 .navRight {
-    gap: 4vw;
+    gap: 2.5rem;
 }
 
 .link {
@@ -31,8 +32,9 @@
     align-items: center;
     text-decoration: none;
     color: #737373;
-    font-size: 1.25vw;
+    font-size: 1rem;
     font-family: Archivo;
+    font-weight: 300;
     transition: color 0.3s ease;
 }
 
@@ -40,7 +42,7 @@
     content: "";
     position: absolute;
     width: 0;
-    height: 1.5px;
+    height: 1.4px;
     display: block;
     transition: width 0.4s ease;
     bottom: -2.5px;
@@ -54,12 +56,21 @@
 }
 
 .logoLink {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
     color: #737373;
-    font-size: 2.5vw;
+    font-size: 2.25rem;
     font-family: Quicksand;
+    font-weight: 300;
     letter-spacing: .75vw;
+}
+
+@media (max-width: 768px) {
+    .navContainer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .navRight {
+        /* display: none; */
+    }
 }

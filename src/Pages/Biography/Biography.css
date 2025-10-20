@@ -2,36 +2,82 @@
 
 
 .biographyMain {
-    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-bottom: 4rem;
+    gap: 4rem;
+}
+
+.picAndBioContainer {
     display: flex;
     justify-content: center;
-    /* background-color: palegoldenrod; */
+    padding-top: 2rem;
 }
 
 .picContainer, .bioText {
-    /* min-height: 100vh; */
-    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: Montserrat;
     color: #737373;
-    padding: 9vh 0 9vh 0;
-}
-
-.bioBody {
-    padding: 0 2.5vw 0 2.5vw;
-}
-
-.bioText {
-    /* background-color: palevioletred; */
-}
-
-.bioHeading {
-    margin-top: -1.5vh;
-    padding-bottom: 1vh;
+    /*padding: 9vh 0 9vh 0;*/
 }
 
 .picContainer {
-    /* background-color: paleturquoise; */
+    width: 33%;
+    gap: 4rem;
+}
+
+.bioText {
+    width: 67%;
+    gap: 1.5rem;
+    padding: 0 4rem;
+}
+
+.bioHeading {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.bioBody {
+    font-weight: 300;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    font-family: Montserrat;
+    color: #737373;
+}
+
+.showsContainer {
+    display: flex;
+
+}
+
+.soloShows, .groupShows {
+    padding: 0 4rem; 
+    width: 50%;
+    justify-content: center;
+    font-family: Montserrat;
+    color: #737373;
+    font-weight: 300;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.showsUl {
+    border-left: 2px solid #e0ddd7;
+}
+
+.showsText {
+    margin: 2rem 0;
+}
+
+.showsSubHeading {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.bioBodyBottomContainer {
+    display: flex;
+    justify-content: center;
 }

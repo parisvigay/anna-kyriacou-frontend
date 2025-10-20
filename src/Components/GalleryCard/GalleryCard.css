@@ -47,12 +47,13 @@
     left: 50%;
     transform: translateX(-50%);
     font-family: Montserrat;
+    font-size: 1rem;
     color: #737373;
     text-align: center;
 }
 
 .artworkYear {
-    font-size: 1vw;
+    font-size: .75rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);

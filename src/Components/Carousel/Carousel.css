@@ -1,9 +1,9 @@
-.carouselContainer {
-    height: 75%;
-    width: 75%;
+.carousel {
+    height: 35rem;
+    width: 62rem;
     background-color: lightgray;
     position: relative;
-    transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease, background-image .5s ease-in-out;
 }
 
 #leftArrow, #rightArrow {
@@ -26,11 +26,11 @@
     right: -.5vw;
 }
 
-.carouselContainer:hover #leftArrow,
-.carouselContainer:hover #rightArrow {
+.carousel:hover #leftArrow,
+.carousel:hover #rightArrow {
     opacity: 1;
 }
 
-.carouselContainer:hover {
-    box-shadow: inset 0 0 15px 5px rgba(0, 0, 0, 0.3)
+.carousel:hover {
+    box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, 0.2)
 }

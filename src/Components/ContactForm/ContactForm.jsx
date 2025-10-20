@@ -3,7 +3,7 @@ import './ContactForm.css';
 
 export default function ContactForm() {
   return (
-    <Form>
+    <Form className="contactForm">
         <Form.Group className="formGroup" controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>
             <Form.Control className="input" type="text" placeholder="Your full name" />

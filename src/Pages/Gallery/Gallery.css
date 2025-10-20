@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+
 .galleryMain {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* background-color: palegreen; */
+    position: relative;
 }
 
 .galleryCardContainer {
@@ -12,4 +17,36 @@
     flex-wrap: wrap;
     width: 75%;
     padding: 0 0 10vh 0;
+    /* background-color: palegoldenrod; */
+}
+
+.loginBtn {
+    height: 4vh;
+    /* background-color: palegreen; */
+    display: flex;
+    justify-content: center;
+    padding: .5vh .5vw;
+    color: #737373;
+    cursor: pointer;
+    font-size: .9rem;
+    font-family: Montserrat;
+}
+
+.signInBtnContainer {
+    width: 75%;
+    height: 8vh;
+    /* background-color: palevioletred; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+    .galleryCardContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
 }

@@ -4,6 +4,7 @@
 .footer {
     height: 30vh;
     background-color: #FAF9F6;
+    font-weight: 300;
     display: flex;
     align-items: center;
     /* border: solid .1vw gray; */
@@ -37,19 +38,6 @@
     align-items: center;
     justify-content: space-evenly;
     /* gap: 5vh; */
-}
-
-.getInTouch {
-    background-color: transparent;;
-    color: #737373;
-    border: solid .25vw #737373;
-    padding: 1vw 2vw;
-    font-family: Archivo;
-    font-size: 1.25vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
 }
 
 .footerEmailP {
@@ -122,4 +110,10 @@
 
 #footerInstaIcon, #footerLinkedInIcon {
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .footerEmailP, .footerLink, .backToTop, .copyright {
+        font-size: 4vw;
+    }
 }

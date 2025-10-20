@@ -1,16 +1,12 @@
+import GetInTouch from '../GetInTouch/GetInTouch';
 import './Footer.css';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export default function Footer() {
     const navigate = useNavigate();
 
     function scrollToTop() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-
-    function handleGetInTouch() {
-        navigate('/contact');
-        scrollToTop();
     }
 
     function handleHome() {
@@ -58,7 +54,7 @@ export default function Footer() {
                     <p className="footerEmailP">anna.kyriacou@test.com</p>
                 </div>
             {/* </div> */}
-            <div className="getInTouch" onClick={handleGetInTouch}>Get In Touch</div>
+            <GetInTouch inFooter={true}/>
         </div>
     </div>
   )

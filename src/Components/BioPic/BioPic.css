@@ -1,6 +1,7 @@
 .imgCard {
     background-color: gainsboro;
-    height: 55vh;
-    width: 25vw;
-    /* margin-top: 2vh; */
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    border: 3px solid #e0ddd7;
 }

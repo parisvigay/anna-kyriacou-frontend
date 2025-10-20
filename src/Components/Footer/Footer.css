@@ -43,7 +43,7 @@
 .footerEmailP {
     font-family: Archivo;
     color: #737373;
-    font-size: 1rem;
+    font-size: .75rem;
 }
 
 .backToTopContainer, .copyrightContainer {
@@ -61,13 +61,13 @@
 }
 
 .backToTop, .copyright {
-    font-size: 1vw;
+    font-size: .75rem;
     font-family: Archivo;
     color: #737373;
 }
 
 .backToTop {
-    padding: .5vh;
+    padding: .5rem;
     cursor: pointer;
 }
 
@@ -90,7 +90,7 @@
 
 .footerLink {
     color: #737373;
-    font-size: 1vw;
+    font-size: .75rem;
     font-family: Archivo;
     cursor: pointer;
 }
@@ -101,7 +101,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5vw;
+    gap: 2rem;
 }
 
 #footerEmailIcon, #footerInstaIcon, #footerLinkedInIcon {
@@ -125,6 +125,11 @@
 
     .footerOther2 {
         order: 1;
+    }
+
+    .footerLinks {
+        flex-direction: row;
+        gap: 4rem;
     }
 
     .footerLink {

@@ -5,9 +5,9 @@
     background-color: transparent;;
     color: #737373;
     border: solid .15vw #737373;
-    padding: 1vw 2vw;
+    padding: 1rem 2rem;
     font-family: Archivo;
-    font-size: 1.25vw;
+    font-size: 1rem;
     font-weight: 300;
     display: flex;
     justify-content: center;

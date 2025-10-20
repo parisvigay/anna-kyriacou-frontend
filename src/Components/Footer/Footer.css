@@ -2,7 +2,7 @@
 
 
 .footer {
-    height: 30vh;
+    height: 13.5rem;
     background-color: #FAF9F6;
     font-weight: 300;
     display: flex;
@@ -43,7 +43,7 @@
 .footerEmailP {
     font-family: Archivo;
     color: #737373;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 .backToTopContainer, .copyrightContainer {
@@ -75,7 +75,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: .5vw;
+    gap: .5rem;
 }
 
 .footerLinks {
@@ -113,7 +113,26 @@
 }
 
 @media (max-width: 768px) {
-    .footerEmailP, .footerLink, .backToTop, .copyright {
-        font-size: 4vw;
+    .footer {
+        flex-direction: column;
+        height: auto;
+        gap: 4rem;
+    }
+
+    .footerOther{
+        width: 25rem;
+    }
+
+    .footerOther2 {
+        order: 1;
+    }
+
+    .footerLink {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .footerContact {
+        gap: 2rem;
     }
 }
